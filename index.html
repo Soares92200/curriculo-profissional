@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currículo Emanuel</title>
+    <link rel="website icon" type="png" href="img/eee.svg" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--Montserrat font-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/feather-icons@4.28.0/dist/feather.min.js"></script>
+  </head>
+  <body>   
+    <section>
+      <!-- MOBILE NAVIGATION -->
+      <div class="w3-container w3-padding-16 w3-border-bottom w3-hide-medium w3-hide-large">
+        <a href="#home" class="w3-bar-item w3-button w3-hover-none">CURRÍCULO</a>
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="toggleNavigation()">&#9776;</a>
+      </div>
+      <div id="mobile-nav" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-sticky">
+        <a href="#about" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">SOBRE</a>
+        <a href="#resume" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">RESUMO</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">CONTATOS</a>
+      </div>
+
+      <!-- SOCIAL SECTION -->
+      <section class="image-section w3-quarter w3-fixed w3-padding-small">
+        <!--IMAGE/AVATAR-->
+        <img src="img/profile.jpeg" class="w3-circle w3-border w3-border-sand" style="border-width: 3px !important;"/>
+        <!--SCIAL NETWORK BUTTONS-->
+        <div class="links w3-margin-top w3-padding-small">
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://www.linkedin.com/in/emanuel-soares-1a7555202/" target="_blank">
+             <i data-feather="linkedin"></i>
+          </a>
+          <!--<a class="icon-link w3-text-sand w3-hover-text-amber" href="https://www.instagram.com//" target="_blank">
+             <i data-feather="instagram"></i>-->
+          </a>
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://github.com/Soares92200" target="_blank">
+              <i data-feather="github"></i>
+          </a>
+        </div>
+        <!--CV DOWNLOAD BUTTON-->
+        <div class="w3-container w3-padding-16">
+          <a href="doc/Dev_08-06-2026_versao_sem_foto_.pdf" class="w3-amber w3-hover-amber w3-button w3-round-small w3-hover-deep-orange w3-padding-large" target="_blank" download="resume.pdf">
+            <i data-feather="arrow-down" style="vertical-align: -0.35em;"></i>
+            <span class="w3-margin-left download-text">DOWNLOAD CV</span>
+          </a>
+        </div>
+      </section>
+
+      <!--CV CONTENT SECTION-->
+      <section class="w3-threequarter w3-padding-large w3-right">
+        <!--DESKTOP NAVIGATION-->
+        <div class="w3-container w3-padding-large w3-border-bottom w3-hide-small">
+          <a href="#home" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green">CURRÍCULO</a>
+          <a href="#contact" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">CONTATOS</a>
+          <a href="#resume" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">RESUMO</a>
+          <a href="#about" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">SOBRE</a>
+        </div>
+        <div class="content-container w3-margin-top-2">
+          <!--HOME SECTION-->
+          <div id="home" class="home w3-container w3-margin-top-4 w3-cursive">
+            <p style="font-style: italic; font-size:x-large;">"Seja o exemplo que você quer ver no mundo."</p>
+            <h1 id="eu"></h1>
+            <h2>Desenvolvedor Jr</h3>
+            <p></p>
+          </div>
+
+          <!--ABOUT SECTION-->
+
+          
+          <div id="about" class="w3-container w3-margin-top-20-percent w3-cursive w3-large">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">SOBRE</h2>
+            <p class="w3-margin-top-2">
+              Sou movido pela curiosidade, busco sempre estar aprendendo de maneira lúdica e 
+              adoro pensar, filosofar e resolver problemas.
+            </p>
+          </div>
+          
+
+          <!--RESUME-->
+
+          
+          <div id="resume" class="w3-container w3-margin-top-20-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">RESUMO</h2>
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+          
+
+              <!--EMPLOYMENT HISTORY SECTION-->
+              <h3 class="w3-border-amber">EXPERIÊNCIA PROFISSIONAL</h3>
+              <div class="">            
+                <h4>Minsait Brasil Ltda</h4>
+                <p>Aprendiz</p>
+                <p>Dezembro/2023 - Dezembo/2025</p>
+              </div>
+              <div class="">            
+                <h4>Qualicorp Consultoria e Corretora de Seguros SA</h4>
+                <p>Aprendiz de Assistente Administrativo</p>
+                <p>Abril/2022 - Junho/2023</p>
+              </div>
+              <div class="">
+                <h4>Moldsoft Tecnologia Ltda</h4>
+                <p>Estágio de desenvolvimento Salesforce</p>
+                <p>300 horas, 2021 </p>
+              </div>
+            </div>
+            
+
+            <!---EDUCATION SECTION-->
+
+            
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+              <h3 class="w3-border-amber">EDUCAÇÃO</h3>
+                <h4>Análise e Desenvolvimento de Sistemas - Tecnológico - EAD, Universidade Federal do Cariri-UFCA</h4>
+                <p>Fevereiro/2023 - Dezembro/2025</p>
+                <h4>Ensino Médio Integrado ao Curso Técnico em Informática,
+Escola Estadual de Educação Profissional Paulo Petrola, Fortaleza-CE</h4>
+                <p>Janeiro 2018 - Dezembo 2020 </p>
+              <h3 class="w3-border-amber">Cursos</h3>
+                <h4><a href="https://certificacaoempreendedora.ce.sebrae.com.br/api/certificado/45842/html/" target="_blank">Empreendedorismo</a>, Sebrae</h4>
+                <p>70 horas, 2018 </p>
+                <h4>Aprendendo php em 24 horas, Vila da Cultura</h4>
+                <p>24 horas, 2020</p>
+              <h3 class="w3-border-amber">Bootcamps</h3>
+                <h4><a href="https://www.dio.me/certificate/RIA5BQAI/share" target="_blank">Luizalabs - Back-end com Python - 2º Edição</a>, Digital Innovation One</h4>
+                <p>38 horas, 2026</p>
+                <h4><a href="https://www.dio.me/certificate/88DFE625/share" target="_blank">Potência Tech IFood - Desenvolvimento de Jogos</a>, Digital Innovation One</h4>
+                <p>77 horas, 2024</p>
+                <h4>Admin Salesforce, Sottelli | Especialistas em Salesforce</h4>
+                <p>40 horas, 2023</p>
+                <h4><a href="https://www.dio.me/certificate/74DAA8AD" target="_blank">Linux Experience</a>, Digital Innovation One</h4>
+                <p>42 horas, 2022</p>
+                <h4><a href="https://www.dio.me/certificate/BE6CCDB2" target="_blank">HTML Web Developer</a>, Digital Innovation One</h4>
+                <p>27 horas, 2022</p>
+            </div>
+            
+
+            <!--SKILLS SECTION-->
+
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+              <h3 class="w3-border-amber">SKILLS</h3>
+            
+
+              <!--SOFT SKILLS-->
+
+              
+              <h4>Soft skills</h4>
+              <ul class="w3-ul" style="font-weight: 500;">
+                <li>Resolução de problemas</li>
+                <li>Assiduidade</li>
+                <li>Adaptabilidade</li>
+                <li>Sinceridade</li>
+                <li>Gestão de tempo</li>
+                <li>Solidariedade</li>
+                <li>Autoaprendizado</li>
+                <li>Empatia</li>
+              </ul>
+              
+
+              <!--TECHNICAL SKILLS-->
+              <h4>Technical skills</h4>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>Lógica de Programação</li>
+                  <li>Programação Orientada a Objetos</li>
+                  <li>Banco de dados (MySQL, MariaDB, SQLite)</li>
+                  <li>HTML, CSS, JS, PHP</li>
+                  <li>C/C++, Java, Python, Lua</li>
+                  <li>React Native, Bootstrap, Figma</li>
+                  <li>Qt, Netbeans, Eclipse, GitHub</li>
+                  <li>Linux</li>
+                  <li>Scrum, Kanban</li>
+                  <li>Pacote Office</li>
+                  <li>Salesforce Administrador Avançado</li>
+                  <li>Salesforce Desenvolvedor Iniciante</li>
+                </ul>
+            </div>
+
+            <!--INTERESTS SECTION-->
+
+            
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+              <h3 class="w3-border-amber">OUTROS</h3>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>Menção Honrosa OBMEP Nível 2 2017</li>
+                  <li>Doador de sangue</li>
+                  <li>Gosto de xadrez e jogos de lógica</li>
+                  <li><a href="https://trailblazer.me/id/esoares19" target="_blank">Trailhead</a></li>
+                  <li>Tenho alguns cursos que você pode se interessar na platafoma <a href="https://evila.site/aprender/main/auth/courses.php" target="_blank">Evila</a>.</li>
+                </ul>
+            </div>
+            
+
+          <!--CONTACT SECTION-->
+          <div id="contact" class="w3-container w3-margin-top-20-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">MEUS CONTATOS</h3>
+            <div class="w3-margin-top-2" style="font-weight: 500;">
+              <p>Nome: Emanuel Soares dos Santos</p>
+              <p>Endereço: Barra do Ceará, Fortaleza-CE </p>
+              <p>Celular/Whatsapp: +55 (85) 9 9284-0616 </p>
+              <p>E-mail: emanuelsoares.ads@gmail.com</p>
+            </div>
+          </div>
+
+        <!--FOOTER-->
+        <!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+        <footer class="w3-container w3-border-top w3-center w3-margin-top-4">
+           <p class="w3-small">This website was made with W3schools Spaces. Make your own free website today!</p>
+          <a class="w3-button w3-round-xxlarge w3-small w3-light-grey" href="https://www.w3schools.com/spaces" target="_blank">Start now</a> 
+        <!-- End footer -->
+        </footer>
+
+        <!--END OF CV SECTION-->
+      </section>      
+    </section>
+    <script>
+      // Function to toggle mobile navigation
+      function toggleNavigation() {
+        let nav = document.getElementById("mobile-nav");
+        if (nav.classList.contains('w3-show')) {
+          nav.classList.remove('w3-show');
+        } else { 
+          nav.classList.add('w3-show');
+        }
+      }
+    </script>
+    <script>
+      // Script to load feather icons
+      feather.replace()
+    </script>
+
+
+    <script>
+      // Meu script
+
+      function minhaIdade(){
+        now = new Date;
+        hoje = now.getDate();
+        mesA = now.getMonth()+1;// essa função retorna um mês a menos
+        anoA = now.getFullYear();
+
+        if(mesA>=2){
+          if(mesA>2){
+            Idade = anoA-2002;              
+          }else{
+            if(hoje>=9){
+                Idade = anoA-2002;
+            }else{
+              Idade = anoA-2002-1;  
+            }
+          }           
+        }else{
+          Idade = anoA-2002-1;
+        }
+        
+        return Idade;
+      }
+
+      meuNome = "Emanuel Soares dos Santos";
+      document.getElementById("eu").innerHTML = 
+      meuNome+" ("+minhaIdade()+")";
+    </script>
+  </body>
+</html>
